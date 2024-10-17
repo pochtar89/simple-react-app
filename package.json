@@ -2,7 +2,7 @@
   "name": "simple-react-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://$GITHUB_TOKEN@github.com/pochtar89.github.io/simple-react-app",
+  "homepage": "gh-pages -d build --repo https://$GITHUB_ACTOR:$GITHUB_TOKEN@github.com/pochtar89/simple-react-app.git",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
